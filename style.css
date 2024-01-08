@@ -7,7 +7,7 @@ body {
     height: 650px;
     width: 1320px;
     margin: 50px 140px;
-    background-image: url('resources/Banner\ Image.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),rgba(0,0,0,0)),url('resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -114,7 +114,7 @@ body {
     height: 482px;
     width: 1320px;
     margin: 50px 140px;
-    background-color: pink;
+    background: linear-gradient(180deg, pink, white);
     border-radius: 15px;
 }
 
@@ -184,4 +184,126 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+}
+
+.portfolio-intro {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-text {
+    padding-left: 140px;
+}
+
+.profile-img {
+    padding: 40px 140px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sub-border {
+    height: 616px;
+    width: 1320px;
+    margin: 120px 140px 50px 140px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.sub-icon {
+    justify-content: center;
+    padding: 80px 585px 0px 585px;
+}
+
+.sub-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input {
+    width: 500px;
+    height: 69px;
+    border-radius: 15px, 0px;
+    text-align: center;
+}
+
+.redious-btn {
+    height: 72px;
+    width: 210px;
+    margin-left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+footer {
+    width: 1575px;
+    height: 609px;
+    background-color: #070211;
+}
+
+.footer-disc-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-top{
+    display: flex;
+    padding: 120px 140px;
+    gap:550px ;
+}
+.footer-icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer-down{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 140px;
+    gap: 600px;
+    display: flex;
+}
+.six-img:hover{
+    border: 2px solid red;
+    border-radius: 11px;
 }
