@@ -67,6 +67,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
+    display: flex;
 }
 
 .welcome-title {
@@ -95,7 +96,6 @@ body {
 
 .welcome-text {
     margin: 126px 0px 0px 126px;
-    padding-top: 126px;
 }
 
 .red {
@@ -192,6 +192,9 @@ body {
     font-size: 24px;
     font-weight: 500;
 }
+.portfolio{
+    margin-top: -600px;
+}
 
 .portfolio-title {
     color: #070211;
@@ -249,9 +252,10 @@ body {
 
 input {
     width: 500px;
-    height: 69px;
+    height: 72px;
     border-radius: 15px, 0px;
     text-align: center;
+    border-radius: 50px 0px 0px 50px;
 }
 
 .redious-btn {
@@ -306,4 +310,24 @@ footer {
 .six-img:hover{
     border: 2px solid red;
     border-radius: 11px;
+}
+.welcome-img{
+    padding-top: 180px;
+}
+
+.girl{
+    margin-left: 720px;
+    
+}
+.discounttt{
+    position: relative;
+    left: 850px;
+    bottom: 50px;
+}
+.banner{
+    padding: 0px 140px;
+}
+.group{
+    position: relative;
+    bottom: 650px;
 }
