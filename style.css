@@ -256,6 +256,7 @@ input {
     border-radius: 15px, 0px;
     text-align: center;
     border-radius: 50px 0px 0px 50px;
+    font-size: 19px;
 }
 
 .redious-btn {
@@ -304,7 +305,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     padding: 20px 140px;
-    gap: 600px;
+    gap: 660px;
     display: flex;
 }
 .six-img:hover{
